@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manish Kumar Vaitha | Portfolio</title>
+ 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+ 
+  <!-- Your CSS file -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+ 
+  <!-- ── CUSTOM CURSOR ── -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+ 
+  <!-- ── RIPPLE BACKGROUND CANVAS ── -->
+  <canvas id="rippleCanvas"></canvas>
+ 
+  <!-- ── 3D AVATAR ── -->
+  <div id="avatarContainer">
+    <div class="avatar-ring-deco"></div>
+    <div class="avatar-ring-deco2"></div>
+    <canvas id="avatarCanvas"></canvas>
+    <div class="avatar-platform"></div>
+    <div class="avatar-label">PANDEY</div>
+  </div>
+ 
+  <!-- ── NAVIGATION ── -->
+  <nav>
+    <a class="nav-logo" href="#hero">MKV</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+ 
+  <!-- ── HERO SECTION ── -->
+  <section id="hero">
+    <p class="hero-tag"></p>
+    <h1 class="hero-name">Manish Kumar <br>Vaitha</h1>
+    <p class="hero-sub">Computer Science Engineer · Problem Solver · Builder</p>
+    <p class="hero-desc">
+      Motivated CS student with strong foundations in web development,
+      machine learning, and backend technologies. Passionate about building
+      innovative solutions.
+    </p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="#contact" class="btn-outline">Get In Touch</a>
+    </div>
+    <div class="scroll-hint">
+      <span></span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+ 
+  <!-- ── ABOUT SECTION ── -->
+  <section id="about">
+    <div class="about-left reveal">
+      <p class="section-label"></p>
+      <h2 class="section-title">Crafting Code<br/>with Purpose</h2>
+      <p class="about-text">
+        B.Tech CSE student at University Institute of Technology,
+        Shimla (HPU), graduating in 2026.
+      </p>
+      <p class="about-text">
+        From AI Resume Builders to ML spam detectors — I turn complex
+        problems into elegant digital solutions.
+      </p>
+      <p class="about-text">
+        Team leader & critical thinker. Secured 1st position in
+        Semester 1 with a 9.4 CGPA.
+      </p>
+    </div>
+    <div class="about-right reveal">
+      <div class="stat-grid">
+        <div class="stat-card">
+          <div class="stat-val">8.88</div>
+          <div class="stat-lbl">Current CGPA</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val">9.4</div>
+          <div class="stat-lbl">Sem 1 CGPA</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val">2+</div>
+          <div class="stat-lbl">Projects</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val">8+</div>
+          <div class="stat-lbl">Tech Skills</div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ── SKILLS SECTION ── -->
+  <section id="skills">
+    <div style="width:100%">
+      <p class="section-label reveal"></p>
+      <h2 class="section-title reveal">My Tech Stack</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-pill reveal">Python</div>
+      <div class="skill-pill reveal">Java</div>
+      <div class="skill-pill reveal">JavaScript</div>
+      <div class="skill-pill reveal">HTML</div>
+      <div class="skill-pill reveal">CSS</div>
+      <div class="skill-pill reveal">React</div>
+      <div class="skill-pill reveal">C / C++</div>
+      <div class="skill-pill reveal">Tailwind</div>
+      <div class="skill-pill reveal">Node.js</div>
+      <div class="skill-pill reveal">ML / AI</div>
+    </div>
+  </section>
+ 
+  <!-- ── PROJECTS SECTION ── -->
+  <section id="projects">
+    <div style="width:100%">
+      <p class="section-label reveal"></p>
+      <h2 class="section-title reveal">Things I've Built</h2>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-num">PROJECT — 01</div>
+        <h3 class="project-title">AI Resume Builder</h3>
+        <p class="project-desc">
+          Web-based app for creating professional resumes through an
+          interactive interface with secure login and automatic generation.
+        </p>
+        <div class="project-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JS</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">AI</span>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-num">PROJECT — 02</div>
+        <h3 class="project-title">Email Spam Detection</h3>
+        <p class="project-desc">
+          ML-based system that classifies emails as spam or legitimate (ham),
+          trained on real-world datasets for high accuracy.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">ML</span>
+          <span class="tag">NLP</span>
+          <span class="tag">Scikit-learn</span>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ── EDUCATION SECTION ── -->
+  <section id="education">
+    <div style="width:100%">
+      <p class="section-label reveal"></p>
+      <h2 class="section-title reveal">Academic Journey</h2>
+    </div>
+    <div class="edu-card reveal">
+      <div class="edu-year">2022 — 2026</div>
+      <div class="edu-divider"></div>
+      <div class="edu-info">
+        <h3>University Institute Of Technology, Shimla (HPU)</h3>
+        <p>B.Tech in Computer Science Engineering</p>
+        <p style="margin-top:8px;color:var(--accent);font-size:0.76rem;letter-spacing:1px;">
+          🏆 1st Position — Semester 1 (CGPA: 9.4)
+        </p>
+      </div>
+      <div class="edu-badge">CGPA: 8.88</div>
+    </div>
+  </section>
+ 
+  <!-- ── CONTACT SECTION ── -->
+  <section id="contact">
+    <div class="contact-inner reveal">
+      <p class="section-label"></p>
+      <h2 class="contact-title">Let's Build<br/>Something Great</h2>
+      <p class="contact-sub">
+        Looking for opportunities to contribute, grow, and develop
+        innovative solutions. Feel free to reach out!
+      </p>
+      <div class="contact-links">
+        <a class="contact-link" href="mailto:manishkumarvaitha7202@gmail.com">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="m2 7 10 7 10-7"/>
+          </svg>
+          manishkumarvaitha7202@gmail.com
+        </a>
+        <a class="contact-link" href="tel:+917018378828">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.27 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.18 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.62-.62a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          +91 70183 78828
+        </a>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ── FOOTER ── -->
+  <footer>
+    <span>© 2025 MANISH KUMAR VAITHA — BUILT WITH ♥ & CODE</span>
+  </footer>
+ 
+  <!-- Three.js Library (loaded before your script) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+ 
+  <!-- Your JavaScript file -->
+  <script src="script.js"></script>
+ 
+</body>
+</html>
