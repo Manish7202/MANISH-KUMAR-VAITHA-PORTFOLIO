@@ -200,7 +200,7 @@ section {
 #hero {
   flex-direction: column;
   text-align: center;
-  padding-right: 310px; /* Space for avatar on right */
+  padding-right: 510px; /* Space for avatar on right */
 }
  
 .hero-tag {
