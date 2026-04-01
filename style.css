@@ -200,7 +200,7 @@ section {
 #hero {
   flex-direction: column;
   text-align: center;
-  padding-right: 310px; /* Space for avatar on right */
+  padding-right: 510px; /* Space for avatar on right */
 }
  
 .hero-tag {
@@ -216,7 +216,7 @@ section {
 .hero-name {
   font-family: 'Syne', sans-serif;
   font-weight: 800;
-  font-size: clamp(2.5rem, 7vw, 6.5rem);
+  font-size: clamp(5.5rem, 7vw, 6.5rem);
   line-height: 1;
   letter-spacing: -2px;
  
@@ -229,7 +229,7 @@ section {
 }
  
 .hero-sub {
-  font-size: clamp(0.85rem, 1.8vw, 1.2rem);
+  font-size: clamp(1.5rem, 1.8vw, 1.2rem);
   color: var(--muted);
   margin-top: 20px;
   letter-spacing: 1px;
@@ -240,7 +240,7 @@ section {
 .hero-desc {
   max-width: 500px;
   margin: 28px auto 0;
-  font-size: 0.84rem;
+  font-size: 1.00rem;
   line-height: 1.9;
   color: #8faac8;
   opacity: 0;
@@ -352,7 +352,7 @@ section {
 }
  
 .about-text {
-  font-size: 0.86rem;
+  font-size: 1.00rem;
   line-height: 2;
   color: #8faac8;
   margin-bottom: 14px;
