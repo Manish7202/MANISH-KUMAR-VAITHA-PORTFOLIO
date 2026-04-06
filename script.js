@@ -37,6 +37,9 @@ window.addEventListener('load', function () {
     const ground = new THREE.PointLight(0x1af0dc, 0.35, 12);
     ground.position.set(0, -4, 2);
     scene.add(ground);
+
+   
+      // Animate a quick pulse on click
  
    
     const M = {
