@@ -170,14 +170,6 @@ nav {
   display:block;
  
 }
-
-.nav-logo span{
-  font-size:1.08rem;
-  font-family: 'Syne', sans-serif;
-  font-weight: 700;
-  color: var(--accent); 
- 
-
 .nav-links {
   display: flex;
   gap: 36px;
