@@ -143,11 +143,7 @@ body {
  
 /* ── 6. NAVIGATION ─────────────────────────────────────────── */
 nav {
-<<<<<<< HEAD
   position: fixed;
-=======
-  position:fixed;
->>>>>>> fbb28ce39578859a1ac1d318ee9b89ecd9702346
   top: 0; width: 100%;
   height: 80px;
   z-index: 100;
@@ -165,11 +161,7 @@ nav {
   align-items:center;
   gap:5px;
   text-decoration:none;
-<<<<<<< HEAD
   height:20px;
-=======
-
->>>>>>> fbb28ce39578859a1ac1d318ee9b89ecd9702346
  
 }
 .nav-logo-img {
@@ -178,7 +170,6 @@ nav {
   height:90px;
   flex-shrink:0;
   display:block;
-<<<<<<< HEAD
 }
 .nav-logo span{
   font-size:1.08rem;
@@ -186,9 +177,6 @@ nav {
   font-weight: 700;
   color: var(--accent); 
   padding-left:5px;
-=======
- 
->>>>>>> fbb28ce39578859a1ac1d318ee9b89ecd9702346
 }
 .nav-links {
   display: flex;
@@ -737,14 +725,5 @@ footer {
  
  
 
-@media (max-width: 600px) {
-  nav { padding: 0 24px; }
-  .nav-links { display: none; }
-  section { padding: 100px 24px 60px; }
-  #hero, #about { padding-right: 24px; }
-  #about { flex-direction: column; gap: 36px; }
-  #avatarContainer { display: none; }
-  .edu-card { flex-direction: column; gap: 20px; }
-  .edu-badge { margin-left: 0; }
-}
+
  
