@@ -722,7 +722,43 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
- 
+
+@media (max-width: 600px) {
+  nav {
+    padding: 0 24px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  section {
+    padding: 100px 24px 60px;
+  }
+
+  #hero,
+  #about {
+    padding-right: 24px;
+  }
+
+  #about {
+    flex-direction: column;
+    gap: 36px;
+  }
+
+  #avatarContainer {
+    display: none;
+  }
+
+  .edu-card {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .edu-badge {
+    margin-left: 0;
+  }
+}
  
 
 
