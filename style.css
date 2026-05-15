@@ -143,14 +143,13 @@ body {
  
 /* ── 6. NAVIGATION ─────────────────────────────────────────── */
 nav {
-  position: fixed;
+    position:fixed;
   top: 0; width: 100%;
-  height: 80px;
   z-index: 100;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 60px;
+  padding: 20px 60px;
   background: rgba(2, 8, 20, 0.85);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
@@ -166,8 +165,8 @@ nav {
 }
 .nav-logo-img {
   align-items:center;
-  width:90px;
-  height:90px;
+  width:50px;
+  height:50px;
   flex-shrink:0;
   display:block;
 }
@@ -178,6 +177,7 @@ nav {
   color: var(--accent); 
   padding-left:5px;
 }
+
 .nav-links {
   display: flex;
   gap: 36px;
@@ -476,7 +476,7 @@ section {
 #projects {
   flex-direction: column;
   align-items: flex-start;
-  max-width: 100%px;
+  max-width: 100%;
   margin: 0 ;
   width: 100%;
   text-align:left;
@@ -518,6 +518,12 @@ section {
 .project-card:hover::after { height: 100%; }
  
 .project-card:hover {
+  border-color: rgba(26, 240, 220, 0.4);
+  transform: translateY(-6px);
+  box-shadow: 0 20px 60px rgba(0, 87, 255, 0.2);
+}
+
+.project-title:hover {
   border-color: rgba(26, 240, 220, 0.4);
   transform: translateY(-6px);
   box-shadow: 0 20px 60px rgba(0, 87, 255, 0.2);
@@ -725,5 +731,61 @@ footer {
  
  
 
+@media (max-width: 960px) {
+  nav { padding: 16px 24px; }
+  .nav-links { display: none; }
+  
+  section { padding: 80px 24px 60px; }
+  
+  #hero, #about, #skills, #projects, #education, #contact { 
+    padding-left: 24px; 
+    padding-right: 24px; 
+    padding-top: 80px; 
+    padding-bottom: 60px;
+  }
+  
+  #about { flex-direction: column; gap: 36px; }
+  #avatarContainer { display: none; }
+  
+  .stat-grid {
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    gap: 16px;
+  }
 
+  .skills-grid {
+    margin-top: 24px;
+    gap: 10px;
+  }
+  
+  .skill-pill {
+    padding: 20px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    margin-top: 24px;
+  }
+  
+  .edu-card { 
+    flex-direction: column; 
+    gap: 20px; 
+    align-items: flex-start; 
+    padding: 24px; 
+  }
+  .edu-badge { margin-left: 0; }
+
+  .hero-name {
+    font-size: clamp(3.5rem, 8vw, 6rem);
+  }
+  
+  .scroll-line {
+    margin-top: 80px;
+  }
+  
+  .contact-title {
+    font-size: clamp(2rem, 6vw, 3rem);
+  }
+}
  
